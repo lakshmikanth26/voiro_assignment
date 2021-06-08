@@ -33,6 +33,7 @@ export class ChangeOrgImageComponent implements OnInit {
     if(Type[0]=="image"){
       this.preview = true;
     } else {
+      this.fileName='';
       alert("Please Upload Only JPEG,PNG,TIFF formats.");
     }
     
